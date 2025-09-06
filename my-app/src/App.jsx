@@ -10,9 +10,21 @@ function App() {
   }, []);
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>React + Node.js</h1>
-      <p>ข้อความจาก Backend: {message}</p>
+    <div>
+      <h1>NextHome</h1>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="#">Sell a House</a></li>
+            <li><a href="#">Properties</a></li>
+            <li><a href="#">Renovated Houses</a></li>
+            <li><a href="#">Investment</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   );
 }
